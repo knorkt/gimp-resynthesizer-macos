@@ -1,0 +1,11 @@
+prefix=/Applications/GIMP.app/Contents/Resources
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=/Applications/GIMP.app/Contents/Resources/include
+
+Name: gimp-3.0
+Description: GIMP 3.2 Beta Override (Resynthesizer macOS Native)
+Version: 3.2.4
+Requires: glib-2.0 gobject-2.0
+Cflags: -I${includedir} -I/opt/local/include/cairo -I/opt/local/include/pango-1.0 -I/opt/local/include/gdk-pixbuf-2.0 -I/opt/local/include/babl-0.1 -I/opt/local/include/gegl-0.4
+Libs: -L${libdir} -lgimp-3.0 -lgimpbase-3.0 -lgimpcolor-3.0 -lgimpui-3.0 -lgimpwidgets-3.0 -lgegl-0.4 -lbabl-0.1 -Wl,-alias,_g_once_init_enter,_g_once_init_enter_pointer -Wl,-alias,_g_once_init_leave,_g_once_init_leave_pointer
