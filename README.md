@@ -212,9 +212,4 @@ otool -L /Applications/GIMP.app/Contents/Resources/lib/gimp/3.0/plug-ins/resynth
 
 ```bash
 sudo xattr -cr /Applications/GIMP.app
-
-```
-
-```
-
 ```
