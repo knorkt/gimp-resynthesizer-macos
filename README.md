@@ -1,10 +1,3 @@
-Here is the polished and upgraded version of your README.
-
-I have implemented GitHub's native Markdown alert syntax (which renders with color-coded blocks on GitHub), added structural emojis for quick visual scanning, cleaned up the code block pacing, and reformatted the troubleshooting section into a highly readable reference table.
-
-You can copy this directly into your `README.md` file:
-
-```markdown
 # 🛠️ Resynthesizer for GIMP 3.2 (Apple Silicon / macOS Native)
 
 This repository provides step-by-step instructions (and pre-compiled binaries) for building and running the **Resynthesizer** plugin (Heal Selection) natively on Apple Silicon.
