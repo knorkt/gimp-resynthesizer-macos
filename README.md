@@ -20,7 +20,7 @@ Compiling Resynthesizer on macOS requires bypassing three fatal errors:
 
 ---
 
-## 🚀 Zero-to-Hero Compilation Guide
+## 🚀 Compilation Guide
 
 ### Phase 1: Foundation & Package Managers
 
